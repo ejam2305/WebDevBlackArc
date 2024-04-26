@@ -133,11 +133,9 @@ main{
 .Section2{
     margin-top: 3.44vw;
     width: 100%;
+    height: 72.5vw;
     background-image: linear-gradient(#110B13, #753E88);
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
 }
 
 
@@ -362,8 +360,98 @@ span > span{
 
 
 .Section3{
-    height: 100vh;
+    height: 56.25vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#51006E, #16071C);
 }
+.SmallTriangle{
+    position: absolute;
+    left: -1.25vw;
+    top: -17vw;
+    height: 0;
+    width: 0;
+    border-left: 25px solid transparent;
+    border-right: 10.5vw solid transparent;
+    border-bottom: 17vw solid #50006D;
+}
+.JoinNowTab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 65%;
+    gap: 2vw;
+}
+.JoinNowText *{
+    text-align: center;
+    font-size: 3.7vw;
+}
+.JoinNowText > span{
+    color: white;
+    display: block;
+}
+.JoinNow1{
+    color: #F80606;
+}
+.JoinNow2{
+    color: #18F020;
+}
+.JoinNow3{
+    color: #15F0BC;
+}
+.JoinNowButton{
+    height: 3.5vw;
+    width: 17vw;
+    border: 0;
+    border-radius: 10vw;
+    background-image: linear-gradient(#270437, #3E0658);
+    align-self: center;
+    
+}
+.JoinNowButton > p{
+    color: white;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+.Section4{
+    width: 100%;
+    height: 34.5vw;
+    display: flex;
+    flex-direction: column;
+}
+.FooterBar{
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    background-color: #34173F;
+}
+.FooterBar > a *{
+    font-size: 1.4vw;
+    color: white;
+}
+.FooterBody{
+    width: 100%;
+    height: calc(100% - 7vw);
+    background-image: linear-gradient(#0F0021, #5406B9);
+}
+
+
+
+
+
+
+
+
 
 
 
