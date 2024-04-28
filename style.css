@@ -443,6 +443,38 @@ span > span{
     width: 100%;
     height: calc(100% - 7vw);
     background-image: linear-gradient(#0F0021, #5406B9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+.FooterIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.75vw;
+}
+.FooterIcons > img{
+    width: 3.25vw;
+}
+.FooterLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5vw;
+    align-items: center;
+}
+.FooterLogo > h1{
+    font-size: 2.25vw;
+}
+.FooterLogo > img{
+    width: 5vw;
+    height: 5vw;
+}
+.FooterText > p{
+    width: 60vw;
+    color: #9B9B9B;
+    font-size: 1.1vw;
+    text-align: center;
 }
 
 
