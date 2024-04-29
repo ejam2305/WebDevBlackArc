@@ -93,7 +93,7 @@ main{
     gap: calc(100vh - calc(100vw * 1.23));                  /*bgs are 1920 x 1092*/
 }
 .BG{
-    width: 100vw;
+    width: 100%;
 }
 .Header{
     width: 100%;
