@@ -120,6 +120,8 @@ main{
 .HeaderText > h1{
     background-image: linear-gradient(#FFFFFF, #80195A);
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
     background-clip: text;
     font-size: 6vw;
 }
@@ -219,6 +221,8 @@ main{
     align-items: center;
     background-image: linear-gradient(#F5FEFF, #14DFEC);
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
     background-clip: text;
     font-size: 2.5vw;   
 }
@@ -294,6 +298,8 @@ span > span{
     align-items: center;
     background-image: linear-gradient(#FFFFFF, #DFF268);
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
     background-clip: text;
     font-size: 2.5vw;   
 }
@@ -362,6 +368,8 @@ span > span{
     align-items: center;
     background-image: linear-gradient(#E303DA, #FFFFFF);
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
     background-clip: text;
     font-size: 2.5vw;
 }
