@@ -16,10 +16,13 @@
         display: initial;
     }
     .NavBar{
-        height: 10vw;
+        height: 7vw;
+    }
+    .Container{
+        padding: 0 4vw;
     }
     .Section1PC{
-        margin-top: 10vw;
+        margin-top: 7vw;
     }
     .HeaderLogo{
         width: 50%;
@@ -76,7 +79,7 @@
         width: 25vw;
     }
     .JoinNowButton > p{
-        font-size: 2vw;
+        font-size: 2vw      ;
     }
 }
 

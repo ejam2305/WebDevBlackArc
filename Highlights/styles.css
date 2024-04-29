@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    height: 100%;
+   
+}
+
+section{
+    margin: 0;
+    padding: 0;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: lighter;
+}
+header{
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+pre{
+color: white;
+font-weight: lighter;
+}
+
+.vidcontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 95px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.content a{
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.content a:hover{
+    color: black;
+    background-color: white;
+}
+.hvid{
+    position: absolute;
+    z-index: -1;
+}
+
+.selectcontainer{
+    background: linear-gradient(180deg, black 0%, #34173F 100%);
+    height: 1178px;
+    width: 100%;
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 110px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    
+}
+
+.icons{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 100px;
+}
+
+.ML{
+    transition: transform 0.3s ease;
+}
+
+.LOL{
+    transition: transform 0.3s ease;
+}
+
+.DOTA{
+    transition: transform 0.3s ease;
+}
+
+.MC{
+    transition: transform 0.3s ease;
+}
+
+.ML:hover{
+    transform: scale(1.5); 
+}
+
+.LOL:hover{
+    transform: scale(1.5); 
+}
+.DOTA:hover{
+    transform: scale(1.5); 
+}
+.MC:hover{
+    transform: scale(1.5); 
+}
+
+
+.blnkcontainer{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.blankbox{
+    border-color: white;
+    border-style: solid;
+    height: 474px;
+    width: 906px;
+}
+
+.navbar{
+    background:linear-gradient(#5406B9, #260353);
+   }
+
+   footer{
+    background: linear-gradient(#0F0021,#5406B9);
+}
+.bar{
+    background-color: #34173F;
+}
